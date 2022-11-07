@@ -1,0 +1,40 @@
+﻿<Window x:Class="InfoCard.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="0.8*" />
+        </Grid.ColumnDefinitions>
+
+        <ListBox SelectionMode="Single" Grid.Column="0" ItemsSource="{Binding InfoCardViewModels}"
+                 SelectedItem="{Binding SelectedCard, Mode=TwoWay}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock FontSize="18" Text="{Binding Path=Id}" />
+                        <TextBlock Text="{Binding Path=Name}" />
+                        <TextBlock Text="{Binding Path=ImageData}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel  x:Name="StackPanel"  Grid.Column="1" DataContext="{Binding SelectedCard}" >
+            <TextBlock Text="Выбранный элемент"  />
+            <TextBlock Text="Id" />
+            <TextBox  Text="{Binding Id, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+            <TextBlock Text="Name" />
+            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged,  Mode=TwoWay}" />
+            <TextBlock Text="ImageData" />
+            <TextBox Text="{Binding ImageData, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+        </StackPanel>
+
+        <Button x:Name="button1" Content="Add New"  Grid.Column="1" Margin="10,356,226,27" Command="{Binding AddCommand}" />
+        <Button x:Name="button2" Content="Save"  Grid.Column="1" Margin="210,356,26,27" Command="{Binding SaveCommand}" />
+    </Grid>
+</Window>

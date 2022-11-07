@@ -1,0 +1,12 @@
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\bin\Debug\netcoreapp3.1\InfoCard.Dal.deps.json
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\bin\Debug\netcoreapp3.1\InfoCard.Dal.dll
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\bin\Debug\netcoreapp3.1\InfoCard.Dal.pdb
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\bin\Debug\netcoreapp3.1\InfoCard.Di.dll
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\bin\Debug\netcoreapp3.1\InfoCard.Di.pdb
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\obj\Debug\netcoreapp3.1\InfoCard.Dal.csprojAssemblyReference.cache
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\obj\Debug\netcoreapp3.1\InfoCard.Dal.AssemblyInfoInputs.cache
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\obj\Debug\netcoreapp3.1\InfoCard.Dal.AssemblyInfo.cs
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\obj\Debug\netcoreapp3.1\InfoCard.Dal.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\obj\Debug\netcoreapp3.1\InfoCard.Dal.csproj.CopyComplete
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\obj\Debug\netcoreapp3.1\InfoCard.Dal.dll
+C:\Users\aleks\Source\Repos\InfoCard\InfoCard.Dl\obj\Debug\netcoreapp3.1\InfoCard.Dal.pdb

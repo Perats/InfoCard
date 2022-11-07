@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InfoCard.Client\InfoCard.Client.csproj" />
+    <ProjectReference Include="..\InfoCard.Di\InfoCard.Di.csproj" />
+    <ProjectReference Include="..\InfoCard.Dl\InfoCard.Dal.csproj" />
+  </ItemGroup>
+
+
+</Project>
